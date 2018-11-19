@@ -1,0 +1,37 @@
+body {
+  background-color:#fff;
+  margin:0;
+  padding:0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#head {
+  border-bottom:1px solid #aaaaaa;
+}
+#logo {
+  width:100%;
+  text-align:center;
+}
+#list {
+  text-align:center;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contents1{
+  width:100%;
+  height:100%;
+}
+
+.contentsb{
+  width:100%;
+  height:100%;
+  margin-bottom:30px;
+}
+
+.contentsc{
+  text-align:center;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  height:100px;
+}
